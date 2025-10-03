@@ -45,5 +45,8 @@
         }
       }
     ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
   }
 }
