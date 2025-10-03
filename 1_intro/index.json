@@ -8,11 +8,7 @@
     "steps": [
       {
         "title": "What is K8s and why",
-        "text": "pods.md"
-      },
-      {
-        "title": "Deployments",
-        "text": "deployments.md"
+        "text": "what_and_why.md"
       },
       {
         "title": "Quiz: Kubernetes Basics",
