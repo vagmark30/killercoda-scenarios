@@ -1,0 +1,49 @@
+{
+  "title": "Kubernetes introduction",
+  "description": "Learn Pods, Deployments, and Services",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "What is K8s and why",
+        "text": "pods.md"
+      },
+      {
+        "title": "Deployments",
+        "text": "deployments.md"
+      },
+      {
+        "title": "Quiz: Kubernetes Basics",
+        "quiz": {
+          "questions": [
+            {
+              "question": "What is the smallest object you can create in Kubernetes?",
+              "type": "choice",
+              "choices": ["Deployment", "Service", "Pod", "ReplicaSet"],
+              "answer": "Pod"
+            },
+            {
+              "question": "Can a Pod run more than one container?",
+              "type": "choice",
+              "choices": ["Yes", "No"],
+              "answer": "Yes"
+            },
+            {
+              "question": "If you want to have rolling upgrades, which resource type should you choose?",
+              "type": "choice",
+              "choices": ["Pod", "ReplicaSet", "Deployment", "DaemonSet"],
+              "answer": "Deployment"
+            },
+            {
+              "question": "Can containers in the same Pod talk to each other? Which address?",
+              "type": "text",
+              "answer": "Yes, via localhost"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

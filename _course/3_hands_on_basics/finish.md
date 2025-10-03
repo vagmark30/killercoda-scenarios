@@ -1,0 +1,1 @@
+This gives a first taste of Kubernetes: creating, inspecting, and cleaning up a Pod.
