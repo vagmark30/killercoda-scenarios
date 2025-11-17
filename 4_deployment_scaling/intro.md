@@ -1,7 +1,4 @@
-4. Deployment & Scaling
 
-Create a Deployment (kubectl create deployment).
+<br>
 
-Scale it (kubectl scale deployment --replicas=3).
-
-See rolling updates in action.
+In this scenario you'll learn the basics of creating a deployment with kubectl, scaling that deployment up and down, upgrading the deployment, and then deleting it.
