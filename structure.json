@@ -1,9 +1,11 @@
 {
   "items": [
-    { "path": "playground" },
-    { "path": "playground-k3s" },
-    { "path": "pod-intro" },
-    { "path": "deployment-basics" },
-    { "path": "kubernetes-dashboard" }
+    { "path": "1_intro" },
+    { "path": "2_core_concepts" },
+    { "path": "3_hands_on_basics" },
+    { "path": "4_deployment_scaling" },
+    { "path": "5_network_services" },
+    { "path": "6_config_secrets"},
+    { "path": "7_storage"}
   ]
 }
